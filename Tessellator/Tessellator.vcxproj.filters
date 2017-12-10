@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="tessellator.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tessellator.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="primitiveState.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{cb1cff9d-1af6-4f38-9cd7-96279d1ebfa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{436cce00-999e-4f60-8674-2fef9cb1dec8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
