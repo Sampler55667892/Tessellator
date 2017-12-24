@@ -131,7 +131,6 @@ copy /Y /V "..\x64\$(Configuration)\Tessellator.lib" "..\TessellatorTest\lib\"
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="tessellator.cpp" />
   </ItemGroup>
   <ItemGroup>
